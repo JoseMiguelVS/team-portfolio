@@ -3,3 +3,5 @@ export function Footer(){
         Este es un footer
     </footer>
 }
+
+export default Footer

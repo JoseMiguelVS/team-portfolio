@@ -1,7 +1,7 @@
 import {NavBar} from './layout/NavBar.jsx';
 import {Footer} from './layout/Footer';
-import {Home} from './sections/Home.jsx'
-import {Delete} from './sections/DeleteThis.jsx'
+import {Home} from './sections/Home.jsx';
+import {About} from './sections/About.jsx'
 
 function App() {
 
@@ -10,7 +10,6 @@ function App() {
       <NavBar/>
       <main>
       <Home/>
-      <Delete/>
       </main>
       <Footer/>
     </div>

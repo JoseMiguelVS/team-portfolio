@@ -1,4 +1,4 @@
-import { Teams, Project , Fire, Users, Entreprise } from "lucide-react";
+import {Users, Project , Fire, Entreprise} from 'lucide-react'
 
 const highlights = [
   {

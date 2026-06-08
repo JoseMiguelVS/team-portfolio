@@ -39,44 +39,29 @@
     font-family: "Playfair Display", serif;
   }
 
-  /* BORRAR ESTA PARTE */
+}
 
-  .test{
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
+@layer components {
+  .glass {
+    background-color: color-mix(in srgb, var(--color-primary) 50%, transparent);
+    backdrop-filter: blur(16px);
+    border: 1px solid color-mix(in srgb, var(--color-border) 50%, transparent);
   }
 
-  #test1{
-    background-color: var(--color-card);
+  .glass-strong {
+    background-color: color-mix(in srgb, var(--color-surface) 80%, transparent);
+    backdrop-filter: blur(24px);
+    border: 1px solid color-mix(in srgb, var(--color-border) 60%, transparent);
   }
 
-  #test2{
-    background-color: var(--color-primary);
+  .glow-text {
+    text-shadow: 0 0 30px
+      color-mix(in srgb, var(--color-primary) 50%, transparent);
   }
 
-  #test3{
-    background-color: var(--color-primary-foreground);
+  .glow-border {
+    box-shadow: 0 0 20px
+        color-mix(in srgb, var(--color-primary) 20%, transparent),
+      inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
   }
-
-  #test4{
-    background-color: var(--color-secondary);
-  }
-
-  #test5{
-    background-color: var(--color-secondary-foreground);
-  }
-
-  #test6{
-    background-color: var(--color-muted);
-  }
-
-  #test7{
-    background-color: var(--color-muted-foreground);
-  }
-
-  #test8{
-    background-color: var(--color-border);
-  }
-
 }

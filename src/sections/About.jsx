@@ -1,14 +1,14 @@
-import {Users, Project , Fire, Entreprise} from 'lucide-react'
+import { Bell, UserPlus , Flame, Users, Shield } from "lucide-react";
 
 const highlights = [
   {
-    icon: Teams,
+    icon: Bell,
     title: "Codigo seguro",
     description:
       "Equipo experimentado en el desarrollo de soluciones seguras.",
   },
   {
-    icon: Fire,
+    icon: Flame,
     title: "Escalando",
     description:
       "Capacidad para manejar proyectos de cualquier tamaño, desde pequeñas aplicaciones hasta sistemas empresariales complejos.",
@@ -19,13 +19,13 @@ const highlights = [
     description: "Trabajando en conjunto con equipos para dar vida a ideas.",
   },
   {
-    icon: Project,
+    icon: UserPlus,
     title: "Proyectos",
     description:
       "Experiencia en la gestión y ejecución de proyectos desde la concepción hasta la implementación.",
   },
   {
-    icon: Entreprise,
+    icon: Shield,
     title: "Empresa",
     description:
       "Experiencia en el desarrollo de soluciones empresariales que impulsan el crecimiento y la eficiencia.",

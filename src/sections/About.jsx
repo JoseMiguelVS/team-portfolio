@@ -1,17 +1,17 @@
-import { Teams, Lightbulb, Rocket, Users } from "lucide-react";
+import { Teams, Project , Fire, Users, Entreprise } from "lucide-react";
 
 const highlights = [
   {
     icon: Teams,
     title: "Codigo seguro",
     description:
-      "Escribiendo código mantenido, escalable que resiste la prueba del tiempo.",
+      "Equipo experimentado en el desarrollo de soluciones seguras.",
   },
   {
-    icon: Rocket,
+    icon: Fire,
     title: "Escalando",
     description:
-      "Desarrollando soluciones que crecen con las necesidades del negocio.",
+      "Capacidad para manejar proyectos de cualquier tamaño, desde pequeñas aplicaciones hasta sistemas empresariales complejos.",
   },
   {
     icon: Users,
@@ -19,10 +19,16 @@ const highlights = [
     description: "Trabajando en conjunto con equipos para dar vida a ideas.",
   },
   {
-    icon: Lightbulb,
-    title: "Innovación",
+    icon: Project,
+    title: "Proyectos",
     description:
-      "Mejorando constantemente mis habilidades y conocimientos.",
+      "Experiencia en la gestión y ejecución de proyectos desde la concepción hasta la implementación.",
+  },
+  {
+    icon: Entreprise,
+    title: "Empresa",
+    description:
+      "Experiencia en el desarrollo de soluciones empresariales que impulsan el crecimiento y la eficiencia.",
   },
 ];
 
@@ -35,7 +41,7 @@ export const About = () => {
           <div className="space-y-8">
             <div className="animate-fade-in">
               <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
-                Sobre mí
+                Sobre nosotros
               </span>
             </div>
 
@@ -49,13 +55,12 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                Soy un desarrollador full-stack apasionado por crear experiencias digitales que no solo
+                Somos un equipo de desarrolladores full-stack apasionados por crear experiencias digitales que no solo
                 funcionan bien, sino que también encantan a los usuarios.Haciendo codigo limpio, eficiente
                  y fácil de mantener.
               </p>
               <p>
-                Lider de equipo con las habilidades de comunicación y colaboración necesarias para guiar 
-                a los equipos hacia el éxito, fomentando un ambiente de trabajo positivo y productivo.
+                .
               </p>
               <p>
                 Siempre es necesario tener buena comunicacion con el equipo, para que el proyecto salga 

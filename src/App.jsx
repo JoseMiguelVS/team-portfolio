@@ -10,7 +10,6 @@ function App() {
       <NavBar/>
       <main>
       <Home/>
-
       <Delete/>
       </main>
       <Footer/>

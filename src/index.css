@@ -48,20 +48,29 @@
     border: 1px solid color-mix(in srgb, var(--color-border) 50%, transparent);
   }
 
-  .glass-strong {
-    background-color: color-mix(in srgb, var(--color-surface) 80%, transparent);
-    backdrop-filter: blur(24px);
-    border: 1px solid color-mix(in srgb, var(--color-border) 60%, transparent);
+  .hover-foreground:hover{
+    color: var(--color-background);
   }
 
-  .glow-text {
-    text-shadow: 0 0 30px
-      color-mix(in srgb, var(--color-primary) 50%, transparent);
+  .hover-background:hover{
+    color: var(--color-foreground);
   }
 
-  .glow-border {
-    box-shadow: 0 0 20px
-        color-mix(in srgb, var(--color-primary) 20%, transparent),
-      inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
+  .text-background{
+    color: var(--color-background);
+  }
+
+   .text-foreground{
+    color: var(--color-foreground);
+  }
+
+  .text-border{
+    color: var(--color-border);
+  }
+}
+
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke: 1px black;
   }
 }

@@ -55,4 +55,22 @@
   .hover-background:hover{
     color: var(--color-foreground);
   }
+
+  .text-background{
+    color: var(--color-background);
+  }
+
+   .text-foreground{
+    color: var(--color-foreground);
+  }
+
+  .text-border{
+    color: var(--color-border);
+  }
+}
+
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke: 1px black;
+  }
 }

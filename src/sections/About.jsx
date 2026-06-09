@@ -47,20 +47,17 @@ export const About = () => {
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
               El trabajo en equipo
-              <span className="font-serif italic font-normal text-white">
+              <span className="font-serif italic font-normal text-black">
                 {" "}
                 es la clave del éxito.
               </span>
             </h2>
 
-            <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
+            <div className="space-y-4 text-black animate-fade-in animation-delay-200 font">
               <p>
                 Somos un equipo de desarrolladores full-stack apasionados por crear experiencias digitales que no solo
                 funcionan bien, sino que también encantan a los usuarios.Haciendo codigo limpio, eficiente
                  y fácil de mantener.
-              </p>
-              <p>
-                .
               </p>
               <p>
                 Siempre es necesario tener buena comunicacion con el equipo, para que el proyecto salga 
@@ -69,7 +66,7 @@ export const About = () => {
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
-              <p className="text-lg font-medium italic text-foreground">
+              <p className="text-lg font-medium italic text-gray-700">
                 "Liderando equipos hacia el éxito con comunicación, colaboración y pasión por el código. - 
                 Programando el futuro, un proyecto a la vez."
               </p>

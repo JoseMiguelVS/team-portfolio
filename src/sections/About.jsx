@@ -1,34 +1,40 @@
-import { Bell, UserPlus , Flame, Users, Shield } from "lucide-react";
+import { ChefHat, Soup , Flame, Drumstick, CakeSlice, IceCreamCone } from "lucide-react";
 
 const highlights = [
   {
-    icon: Bell,
-    title: "Codigo seguro",
+    icon: ChefHat,
+    title: "Chef",
     description:
-      "Equipo experimentado en el desarrollo de soluciones seguras.",
+      "Reinventamos los sabores clásicos con un toque contemporáneo.",
   },
   {
     icon: Flame,
-    title: "Escalando",
+    title: "Cocina",
     description:
-      "Capacidad para manejar proyectos de cualquier tamaño, desde pequeñas aplicaciones hasta sistemas empresariales complejos.",
+      "Rescatamos los sabores de siempre con recetas llenas de historia.",
   },
   {
-    icon: Users,
-    title: "Colaboración",
-    description: "Trabajando en conjunto con equipos para dar vida a ideas.",
+    icon: Drumstick,
+    title: "Platillos",
+    description: "“Cocinamos como para la familia.”.",
   },
   {
-    icon: UserPlus,
-    title: "Proyectos",
+    icon: Soup,
+    title: "Comida",
     description:
-      "Experiencia en la gestión y ejecución de proyectos desde la concepción hasta la implementación.",
+      "Sabores auténticos en un ambiente que te hará sentir como en casa.",
   },
   {
-    icon: Shield,
-    title: "Empresa",
+    icon: CakeSlice,
+    title: "Postres",
     description:
-      "Experiencia en el desarrollo de soluciones empresariales que impulsan el crecimiento y la eficiencia.",
+      "Ingredientes frescos, momentos inolvidables.",
+  },
+  {
+    icon: IceCreamCone,
+    title: "Helados",
+    description:
+      "Una selección deliciosa de helados artesanales.",
   },
 ];
 
@@ -42,33 +48,32 @@ export const About = () => {
             <div className="animate-fade-in">
               <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
                 Sobre nosotros
+                {/* Restaurante */}
               </span>
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              El trabajo en equipo
-              <span className="font-serif italic font-normal text-black">
+              Aqui no solo comes,
+              <span className="font-serif text-primary italic font-normal text-black">
                 {" "}
-                es la clave del éxito.
+                vives una experiencia.
               </span>
             </h2>
 
             <div className="space-y-4 text-black animate-fade-in animation-delay-200 font">
               <p>
-                Somos un equipo de desarrolladores full-stack apasionados por crear experiencias digitales que no solo
-                funcionan bien, sino que también encantan a los usuarios.Haciendo codigo limpio, eficiente
-                 y fácil de mantener.
+                En nuestro restaurante creemos que la buena comida une a las personas. 
+                Cada receta está elaborada con ingredientes frescos, pasión por la cocina y atención a cada detalle. 
               </p>
               <p>
-                Siempre es necesario tener buena comunicacion con el equipo, para que el proyecto salga 
-                adelante, y se pueda cumplir con los objetivos.
+                Queremos ofrecerte mucho más que una comida: una experiencia cálida, auténtica e inolvidable
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-gray-700">
-                "Liderando equipos hacia el éxito con comunicación, colaboración y pasión por el código. - 
-                Programando el futuro, un proyecto a la vez."
+                "En nuestro restaurante trabajamos cada día para ofrecer una experiencia única, 
+                combinando ingredientes frescos, recetas auténticas y un ambiente acogedor."
               </p>
             </div>
           </div>
@@ -85,7 +90,7 @@ export const About = () => {
                   <item.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm  text-muted">
                   {item.description}
                 </p>
               </div>

@@ -2,7 +2,7 @@ export function Home(){
     return <section id="home">
         
         <div
-        className="h-screen bg-[url('./public/images/presentation.png')] bg-cover bg-center flex items-center justify-center flex-col gap-1"
+        className="h-screen bg-[url('images/presentation.png')] bg-cover bg-center flex items-center justify-center flex-col gap-1"
         >
         <h1 className="font-bold text-6xl text-center text-border ">
             Bienvenido a nuestro restaurante

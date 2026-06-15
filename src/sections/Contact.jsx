@@ -22,21 +22,21 @@ export const Contact = () => {
                                 <Phone className="w-6 h-6 text-primary" />
                                 <div>
                                     <p className="text-sm text-muted">Teléfono</p>
-                                    <p className="text-2xl font-semibold">241-156-86-12</p>
+                                    <p className="text-1xl font-semibold">241-156-86-12</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">
                                 <Mail className="w-6 h-6 text-primary" />
                                 <div>
                                     <p className="text-sm text-muted">Email</p>
-                                    <p className="text-2xl font-semibold">Restaurante@gajoaleda.com</p>
+                                    <p className="text-1xl font-semibold">Restaurante@gajoaleda.com</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">
                                 <Map className="w-6 h-6 text-primary" />
                                 <div>
                                     <p className="text-sm text-muted">Ubicación</p>
-                                    <p className="text-2xl font-semibold">Calle Naranjos 456, Apizaco, Tlaxcala</p>
+                                    <p className="text-1xl font-semibold">Calle Naranjos 456, Apizaco, Tlaxcala</p>
                                 </div>
                             </div>
                         </div>

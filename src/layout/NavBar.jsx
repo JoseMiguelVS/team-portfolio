@@ -11,7 +11,7 @@ export function NavBar(){
             <a href="#home" className="hover:text-background">Inicio</a>
             <a href="#" className="hover:text-background">Menú</a>
             <a href="#about" className="hover:text-background">Sobre nosotros</a>
-            <a href="#" className="hover:text-background">Contacto</a>
+            <a href="#contact" className="hover:text-background">Contacto</a>
         </nav>
     </header>
 }

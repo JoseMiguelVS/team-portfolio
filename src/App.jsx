@@ -2,7 +2,8 @@ import {NavBar} from './layout/NavBar.jsx';
 import {Footer} from './layout/Footer';
 import {Home} from './sections/Home.jsx';
 import {About} from './sections/About.jsx';
-import {Contact} from './sections/Contact.jsx';
+import { Projects } from './sections/Projects';
+import { Contact } from './sections/Contact';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <main>
       <Home/>
       <About/>
+      <Projects/>
       <Contact/>
       </main>
       <Footer/>

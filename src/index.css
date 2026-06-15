@@ -48,25 +48,6 @@
     border: 1px solid color-mix(in srgb, var(--color-border) 50%, transparent);
   }
 
-  .hover-foreground:hover{
-    color: var(--color-background);
-  }
-
-  .hover-background:hover{
-    color: var(--color-foreground);
-  }
-
-  .text-background{
-    color: var(--color-background);
-  }
-
-   .text-foreground{
-    color: var(--color-foreground);
-  }
-
-  .text-border{
-    color: var(--color-border);
-  }
 }
 
 @layer utilities {

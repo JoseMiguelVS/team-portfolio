@@ -9,11 +9,7 @@ export function NavBar(){
 
         <nav className="flex gap-6">
             <a href="#home" className="hover:text-background">Inicio</a>
-<<<<<<< HEAD
             <a href="#" className="hover:text-background">Menú</a>
-=======
-            <a href="#menu" className="hover:text-background">Menú</a>
->>>>>>> 87ab1cca7ea38705e449134a658d91d91ce81e36
             <a href="#about" className="hover:text-background">Sobre nosotros</a>
             <a href="#" className="hover:text-background">Contacto</a>
         </nav>
